@@ -1,0 +1,12 @@
+{
+  "name": "DOX",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "connect": "1.8.7",
+    "markdown-styles": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

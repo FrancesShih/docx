@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>翻墙服务代理配置</title>
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><h1 id="-"><a class="header-link" href="#-"></a>翻墙服务代理配置</h1>
+<p><small>@天兴大人 2015-9</small></p>
+<blockquote>
+<p>STEP 1 </p>
+</blockquote>
+<p>使用Chrome浏览器、安装SwitchSharp插件。在Chome访问：chrome://extensions/ 。将邮件附件拖入浏览器。</p>
+<blockquote>
+<p>STEP 2</p>
+</blockquote>
+<p>新建一个情景模式，默认的不知为何无法添加SOCKS代理</p>
+<blockquote>
+<p>STEP 3</p>
+</blockquote>
+<p>在新建的情景模式中，添加SOCKS代理 IP:203.88.162.117  端口:1080</p>
+<blockquote>
+<p>STEP 4</p>
+</blockquote>
+<p>选择SOCKS v5</p>
+<blockquote>
+<p>STEP 5</p>
+</blockquote>
+<p>新建切换规则：</p>
+<ol class="list">
+<li><p>将自动更新的境外站点获取地址添加入规则，名字随便起。并选择情景模式为之前建立的代理模式。<br><em>://autoproxy-gfwlist.googlecode.com/\</em></p>
+</li>
+<li><p>其他需访问网站可自定义。并选择情景模式为之前建立的代理模式。
+<em>facebook\</em></p>
+</li>
+<li><p>勾选在线规则、URL地址为：<a href="http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt">http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt</a> 。并选择情景模式为之前建立的代理模式。调整更新时间。</p>
+</li>
+<li><p>点击立即更新、失败了的话、多点几次。</p>
+</li>
+</ol>
+<blockquote>
+<p>STEP 6</p>
+</blockquote>
+<p>Chome窗口右上角选自动切换代理。访问facebook</p>
+<blockquote>
+<p>配置</p>
+</blockquote>
+<p>参照图片</p>
+<p class="img-container"><img src="./img/settings.png" alt="settings"></p>
+<p class="img-container"><img src="./img/settings1.png" alt="settings"></p>
+<p class="img-container"><img src="./img/settings2.png" alt="settings"></p>
+<p>下载switch sharp</p>
+<p><a href="./img/Proxy_SwitchySharp.crx">SwitchSharp</a></p>
+    </article>
+  </body>
+</html>

@@ -8,7 +8,7 @@ http://www.ksyun.com/
 
 用户名：xiasha1360@sina.com
 
-密码：123456
+密码：----
 
 
 ### 前端开发环境

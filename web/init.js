@@ -2,7 +2,15 @@
 *@file init
 */
 (function () {
+    var coll = $('.col-l');
     var colr = $('.col-r');
+    var maxHeight = window.innerHeight - 80;
+    coll.css({
+        height: maxHeight + 'px'
+    });
+    colr.css({
+        height: maxHeight + 'px'
+    });
     colr.append('<iframe src="content/startHere/readme.html"></iframe>');
     var iframe = colr.find('iframe');
     iframe.css({
@@ -23,6 +31,13 @@
            });
     });
     $(window).on('resize', function () {
+        var maxHeight = window.innerHeight - 80;
+        coll.css({
+            height: maxHeight + 'px'
+        });
+        colr.css({
+            height: maxHeight + 'px'
+        });
         iframe.css({
             width: colr.width() + 'px',
             height: colr.height() + 'px'

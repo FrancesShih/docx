@@ -12,7 +12,7 @@
     "id": "content/standard",
     "children": [{
         "text": "前端开发流程 & 规范",
-        "id"： "content/standard/fedev"
+        "id": "content/standard/fedev"
     }]
 },{
     "text": "组件 & 工具",

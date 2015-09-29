@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>前端开发流程 &amp; 规范</title>
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="../../../assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><h1 id="-"><a class="header-link" href="#-"></a>前端开发流程 &amp; 规范</h1>
+<p>@shiyongxin 2015-9-24</p>
+<h2 id="--1"><a class="header-link" href="#--1"></a>写在前面的话</h2>
+<p>那个～ 确认已经按照新人指导配置好环境。。。</p>
+<h2 id="fork-me"><a class="header-link" href="#fork-me"></a>Fork ME</h2>
+<blockquote>
+<p>DOCX: 文档平台 &quot;时间仓促还有点不智能。。。等我以后升级&quot;</p>
+</blockquote>
+<p>地址： <a href="https://github.com/FrancesShih/docx">https://github.com/FrancesShih/docx</a></p>
+<p>vim nav.json 添加文件夹 &amp; readme.md</p>
+<p>不熟悉markdown语法的同学 建议安装 Mou 这款软件</p>
+<p>git commit 之前。。。需要你手动执行下sh build.sh (容我后续优化。。。。表吐槽。。。。)</p>
+<blockquote>
+<p>WebSite：官网 &quot;买不起私有。。。记得这都是开放的。。。密码神马的不要写。。。还有一些功能我后续优化。。。&quot;</p>
+</blockquote>
+<p>地址：<a href="https://github.com/FrancesShih/workspace.git">https://github.com/FrancesShih/workspace.git</a></p>
+<p>目录说明：</p>
+<ol class="list">
+<li><p>widget－组建目录：要包含同名模版.ejs 同名样式.scss 同名脚本.js (样式 &amp; 脚本可选)</p>
+</li>
+<li><p>template- 模版目录：请写模版XXX.html 如需includefile 参见ejs语法</p>
+</li>
+<li><p>assets- 资源目录：script脚本（lib 基础库），style样式，img图片 （js采用requirejs进行依赖管理 &amp; 加载）</p>
+</li>
+<li><p>output- 编译后生成目录</p>
+</li>
+</ol>
+<p>开发说明：</p>
+<ol class="list">
+<li><p>widget组建引用：<code>&lt;!--widget[组建名]--&gt;</code> (编译帮你处理表操心)</p>
+</li>
+<li><p>执行gulp dev</p>
+<p>访问localhost:8888</p>
+</li>
+<li><p>修改文件后，直接refresh页面即可，不需要每次执行gulp命令</p>
+</li>
+</ol>
+    </article>
+  </body>
+</html>

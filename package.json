@@ -2,8 +2,14 @@
   "name": "DOX",
   "private": true,
   "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-front-matter": "^1.2.3",
+    "gulp-layout": "0.0.3",
+    "gulp-markdown": "^1.1.0"
+  },
   "dependencies": {
-    "connect": "1.8.7",
-    "markdown-styles": "^3.0.0"
+    "gulp-git": "^1.5.0"
   }
 }

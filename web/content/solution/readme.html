@@ -1,38 +1,30 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title></title>
-    <link type="text/css" rel="stylesheet" href="..\..\assets/css/github-markdown.css">
-    <link type="text/css" rel="stylesheet" href="..\..\assets/css/pilcrow.css">
-    <link type="text/css" rel="stylesheet" href="..\..\assets/css/hljs-github.min.css"/>
-  </head>
-  <body>
-    <article class="markdown-body"><p>#解决方案开发规范</p>
+<p>#解决方案开发规范</p>
 <p>@huanglijiao create</p>
 <p>@2015-10-08</p>
 <blockquote>
 <p>HTML文件</p>
 </blockquote>
-<ul class="list">
+<ul>
 <li><p>1 在workspace-&gt;template下，存放各页面的模板文件，inc下存放公用的一些模板文件。存放公用模板的目录还有widget下。解决方案页面用到的组件有topbar,topnav,slidebanner,footbar,还有anchor，用于锚点的滚动。</p>
 </li>
 <li><p>2 模板的后缀名为：.ejs, 编译执行后在output-&gt;template下生成对应的.html文件。</p>
 </li>
 <li><p>3 在模板中使用指令&lt;%include 文件路径 %&gt;来包含其他模板。</p>
 <p>  &lt;div id=&quot;page-hd&quot;&gt;</p>
-<pre class="hljs"><code>  在这里包含页面头部的模板
+<pre><code>  在这里包含页面头部的模板
 
-  &amp;<span class="hljs-keyword">lt</span>;<span class="hljs-variable">%include</span> inc/head.ejs<span class="hljs-variable">%&amp;</span><span class="hljs-keyword">gt</span>;</code></pre><p>  &lt;/div&gt; </p>
+  &amp;lt;%include inc/head.ejs%&amp;gt;
+</code></pre><p>  &lt;/div&gt; </p>
 <p>  &lt;div id=&quot;page-bd&quot;&gt;</p>
-<pre class="hljs"><code>  在这里包含解决方案页面的内容主题
+<pre><code>  在这里包含解决方案页面的内容主题
 
-  页面内容需要用&amp;<span class="hljs-keyword">lt</span>;div class=<span class="hljs-string">"wrap"</span>&amp;<span class="hljs-keyword">gt</span>;&amp;<span class="hljs-keyword">lt</span>;/div&amp;<span class="hljs-keyword">gt</span>;包裹一层，将内容宽度固定<span class="hljs-number">1000</span>px，且居中。</code></pre><p>  &lt;/div&gt;</p>
+  页面内容需要用&amp;lt;div class=&quot;wrap&quot;&amp;gt;&amp;lt;/div&amp;gt;包裹一层，将内容宽度固定1000px，且居中。
+</code></pre><p>  &lt;/div&gt;</p>
 <p>  &lt;div class=&quot;page-ft&quot;&gt;</p>
-<pre class="hljs"><code>  在这里包含页面底部的模板
+<pre><code>  在这里包含页面底部的模板
 
-  &amp;<span class="hljs-keyword">lt</span>;<span class="hljs-variable">%include</span> inc/foot.ejs<span class="hljs-variable">%&amp;</span><span class="hljs-keyword">gt</span>;</code></pre><p>  &lt;/div&gt;</p>
+  &amp;lt;%include inc/foot.ejs%&amp;gt;
+</code></pre><p>  &lt;/div&gt;</p>
 </li>
 <li><p>4 在body最后引入require.js</p>
 <p>  &lt;script type=&quot;text/javascript&quot; data-main=&quot;/assets/script/solution/conf&quot; src=&quot;/assets/script/lib/require.js&quot;&gt;&lt;/script&gt;</p>
@@ -41,20 +33,20 @@
 <blockquote>
 <p>css文件</p>
 </blockquote>
-<ul class="list">
+<ul>
 <li><p>1 对应页面的.scss文件存放在workspace-&lt;assets-&lt;style-&lt;ext下，公用的.scss文件存放在workspace-&gt;assets-&gt;style-&gt;lib下。在widget下的各组件的.scss文件存放在对应目录下。</p>
 </li>
 <li><p>2 在解决方案页面引入公用的.scss文件,@import &#39;../lib/skin.scss&#39;;</p>
 </li>
 </ul>
 <p>在公用的.scss中有共用的兼容各浏览器的函数@mixin</p>
-<ul class="list">
+<ul>
 <li>3 使用指令&lt;!--resstyle[/assets/style/lib/reset.scss]--&gt;来引入.scss文件。</li>
 </ul>
 <blockquote>
 <p>js文件</p>
 </blockquote>
-<ul class="list">
+<ul>
 <li><p>1 对应页面的js文件存放在workspace-&gt;assets-&gt;script-&gt;对应文件夹-&gt;下，用到的框架存放在workspace-&gt;assets-&gt;script-&gt;lib下。各组件的js文件，在widget目录下。</p>
 </li>
 <li><p>2 解决方案目录下包含两个文件，conf.js和init.js。</p>
@@ -67,12 +59,9 @@
 <blockquote>
 <p>图片</p>
 </blockquote>
-<ul class="list">
+<ul>
 <li><p>1 图片使用.png格式，在workspace-&gt;assets-&gt;img-&gt;common下存放公用的图片，在static中对应文件夹下对方该页面的图片。</p>
 </li>
 <li><p>2 icon类的使用iconfont，具体使用方法见“服务 &amp; 平台”</p>
 </li>
 </ul>
-    </article>
-  </body>
-</html>

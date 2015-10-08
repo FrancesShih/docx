@@ -43,7 +43,7 @@ font-size:16px;font-style:normal;}
 
 c)获取字体编码,应用于页面，“&#33”为自体编码，在图标管理下的图标应用项目中可查看。
 
-<i class="iconfont">&#33</i>
+&lt;i class="iconfont"&gt;&#33&lt;/i&gt;
 
 > PC端应用常见问题
 

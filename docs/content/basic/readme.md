@@ -37,6 +37,7 @@ mac下：GithubDesktop
 > gulp
 
 中文官网：http://www.gulpjs.com.cn/
+
 Windows下需要使用命令cnpm来安装。
 
 

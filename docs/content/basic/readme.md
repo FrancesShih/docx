@@ -16,7 +16,7 @@ http://www.ksyun.com/
 > NODE
 
 安装：https://nodejs.org/
-
+Windows下需要安装：cnpm。链接：http://npm.taobao.org/
 
 > ruby
 
@@ -25,16 +25,18 @@ http://www.ksyun.com/
 > git
 
 指南：http://www.bootcss.com/p/git-guide/
-
+可安装客户端：
+windows下:TortoiseGit
+mac下：GithubDesktop
 
 > SASS
 
 指南：http://peiwen.lu/SassReferenceChineseTranslation/
 
-
 > gulp
 
 中文官网：http://www.gulpjs.com.cn/
+Windows下需要使用命令cnpm来安装。
 
 
 

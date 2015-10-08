@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="..\..\..\assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="..\..\..\assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="..\..\..\assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><p>#iconfont图库</p>
+<p>@huanglijiao create</p>
+<p>@2015-9-29</p>
+<p>###使用阿里巴巴的矢量图标库  </p>
+<p>###详细介绍如下：</p>
+<ul class="list">
+<li><p>1 <a href="http://www.iconfont.cn/">矢量图上传</a></p>
+</li>
+<li><p>2 <a href="http://www.iconfont.cn/help/platform.html">平台功能介绍</a></p>
+</li>
+<li><p>3 <a href="http://www.iconfont.cn/help/iconmake.html">图标制作说明</a></p>
+</li>
+<li><p>4 <a href="http://www.iconfont.cn/help/iconuse.html">图标应用教程</a></p>
+</li>
+</ul>
+<p>###注意事项：</p>
+<blockquote>
+<p>图片上传，需要微博的账户和密码，使用的是金山云的新浪微博帐号。</p>
+<p>该字体库兼容ie6以上，包括ie6,还有chrome,firefox等。</p>
+<p>在前端开发中的应用。</p>
+</blockquote>
+<p>a)</p>
+<p>@font-face {
+  font-family: &#39;iconfont&#39;;</p>
+<p>  src: url(&#39;//at.alicdn.com/t/font_1444276747_5971632.eot&#39;); /<em> IE9</em>/</p>
+<p>  src: url(&#39;//at.alicdn.com/t/font_1444276747_5971632.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;), /<em> IE6-IE8 </em>/</p>
+<p>  url(&#39;//at.alicdn.com/t/font_1444276747_5971632.woff&#39;) format(&#39;woff&#39;), /<em> chrome、firefox </em>/</p>
+<p>  url(&#39;//at.alicdn.com/t/font_1444276747_5971632.ttf&#39;) format(&#39;truetype&#39;), /<em> chrome、firefox、opera、Safari, Android, iOS 4.2+</em>/</p>
+<p>  url(&#39;//at.alicdn.com/t/font_1444276747_5971632.svg#iconfont&#39;) format(&#39;svg&#39;); /<em> iOS 4.1- </em>/
+}</p>
+<p>b)使用样式</p>
+<p>.iconfont{font-family:&quot;iconfont&quot;;</p>
+<p>font-size:16px;font-style:normal;}</p>
+<p>c)获取字体编码,应用于页面，“&amp;#33”为自体编码，在图标管理下的图标应用项目中可查看。</p>
+<p>&lt;i class=&quot;iconfont&quot;&gt;&amp;#33&lt;/i&gt;</p>
+<blockquote>
+<p>PC端应用常见问题</p>
+</blockquote>
+<p>1、字体图标在safair或chrome浏览器下被加粗。</p>
+<p>解决方案：</p>
+<p>.iconfont{-webkit-font-smoothing: antialiased;}</p>
+<p>2、字体图标在IE7浏览器显示中图标右侧出现小方框现象。</p>
+<p>解决方案：display: block;</p>
+<p>3、字体图标在pc端的chrome浏览器下出现严重的锯齿。</p>
+<p>解决方案：-webkit-text-stroke-width: 0.2px;</p>
+    </article>
+  </body>
+</html>

@@ -23,8 +23,15 @@
      }]
 },{
     "text": "服务 & 平台",
-    "id": "content/plat"
+    "id": "content/plat",
+    "children": [{
+        "text": "iconfont",
+        "id": "content/plat/overwall"
+     }]
 },{
     "text": "技储 & 调研",
     "id": "content/research"
+},{
+    "text": "解决方案开发规范",
+    "id": "content/solution"
 }]

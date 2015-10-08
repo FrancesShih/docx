@@ -36,9 +36,9 @@
 
 	&lt;/div&gt;
 
-	* 4 在body最后引入require.js
+* 4 在body最后引入require.js
 
-&lt;script type="text/javascript" data-main="/assets/script/solution/conf" src="/assets/script/lib/require.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" data-main="/assets/script/solution/conf" src="/assets/script/lib/require.js"&gt;&lt;/script&gt;
 
 > css文件
 

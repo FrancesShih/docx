@@ -25,5 +25,11 @@ b)使用样式
 font-size:16px;font-style:normal;}
 c)获取字体编码,应用于页面，“&#33”为自体编码，在图标管理下的图标应用项目中可查看。
 <i class="iconfont">&#33</i>
-
-
+*PC端应用常见问题
+1、字体图标在safair或chrome浏览器下被加粗。
+解决方案：
+.iconfont{-webkit-font-smoothing: antialiased;}
+2、字体图标在IE7浏览器显示中图标右侧出现小方框现象。
+解决方案：display: block;
+3、字体图标在pc端的chrome浏览器下出现严重的锯齿。
+解决方案：-webkit-text-stroke-width: 0.2px;

@@ -12,31 +12,31 @@
 
 * 3 在模板中使用指令&lt;%include 文件路径 %&gt;来包含其他模板。
 
-&lt;div id="page-hd"&gt;
+	&lt;div id="page-hd"&gt;
 
-	在这里包含页面头部的模板
+		在这里包含页面头部的模板
 
-    &lt;%include inc/head.ejs%&gt;
+	    &lt;%include inc/head.ejs%&gt;
 
-&lt;/div&gt; 
+	&lt;/div&gt; 
 
-&lt;div id="page-bd"&gt;
+	&lt;div id="page-bd"&gt;
 
-	在这里包含解决方案页面的内容主题
+		在这里包含解决方案页面的内容主题
 
-	页面内容需要用&lt;div class="wrap"&gt;&lt;/div&gt;包裹一层，将内容宽度固定1000px，且居中。
+		页面内容需要用&lt;div class="wrap"&gt;&lt;/div&gt;包裹一层，将内容宽度固定1000px，且居中。
 
-&lt;/div&gt;
+	&lt;/div&gt;
 
-&lt;div class="page-ft"&gt;
+	&lt;div class="page-ft"&gt;
 
-	在这里包含页面底部的模板
+		在这里包含页面底部的模板
 
-    &lt;%include inc/foot.ejs%&gt;
+		&lt;%include inc/foot.ejs%&gt;
 
-&lt;/div&gt;
+	&lt;/div&gt;
 
-* 4 在body最后引入require.js
+	* 4 在body最后引入require.js
 
 &lt;script type="text/javascript" data-main="/assets/script/solution/conf" src="/assets/script/lib/require.js"&gt;&lt;/script&gt;
 
@@ -62,7 +62,7 @@
 
 在init.js文件中写该页面的交互逻辑。
 
-在widget目录下存放封装的组件，使用指令&lt;!--widget[/helpbar]--&gt;来包含组件。
+在widget目录下存放封装的组件，使用指令&lt;!--widget[/footbar]--&gt;来包含组件。
 
 > 图片
 

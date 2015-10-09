@@ -13,6 +13,9 @@
     "children": [{
         "text": "前端开发流程 & 规范",
         "id": "content/standard/fedev"
+    },{
+    	"text": "解决方案",
+	"id": "content/solution/"
     }]
 },{
     "text": "组件 & 工具",
@@ -31,7 +34,4 @@
 },{
     "text": "技储 & 调研",
     "id": "content/research"
-},{
-    "text": "解决方案开发规范",
-    "id": "content/solution"
 }]

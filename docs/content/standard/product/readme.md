@@ -1,6 +1,6 @@
 # 产品解决方案规范
 
-@shiyongxin 2015-10-08
+@ shiyongxin 2015-10-08
 
 ## Prepare
 

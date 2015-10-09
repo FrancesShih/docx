@@ -1,5 +1,7 @@
 # 新手指导
 
+@shiyongxin 2015-10
+
 ### 金山云官网
 
 http://www.ksyun.com/
@@ -45,4 +47,3 @@ mac下：GithubDesktop
 
 Windows下需要使用命令cnpm来安装。
 
-> ...

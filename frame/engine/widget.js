@@ -24,8 +24,8 @@ function filestream(filecontent) {
 // 插件级别函数 (处理文件)
 function widget() {
    style = '<link type="text/css" rel="stylesheet" href="/css/github-markdown.css"/>';
-   style += '<link type="text/css" rel="stylesheet" href="/css/hljs-github.min.css"/>';
-   style += '<link type="text/css" rel="stylesheet" href="/css/pilcrow.css"/>';
+   html = '<html><head>' + style + '</head><body class="markdown-body">';
+   htmlend = '</body></html>';
   // 创建一个让每个文件通过的 stream 通道
   return through.obj(function(file, enc, cb) {
     if (file.isNull()) {
@@ -33,7 +33,7 @@ function widget() {
       cb(null, file);
     }
     
-    file.contents = new Buffer(String(file.contents + style));
+    file.contents = new Buffer(String(html + file.contents + htmlend));
   
     // if (file.isBuffer()) {
     //   file.contents = Buffer.concat([prefixText, file.contents]);

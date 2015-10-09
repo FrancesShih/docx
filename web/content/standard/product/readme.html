@@ -1,0 +1,33 @@
+<h1 id="-">产品解决方案规范</h1>
+<p>@shiyongxin 2015-10-08</p>
+<h2 id="prepare">Prepare</h2>
+<p>参考 新人指导 搭建环境</p>
+<h2 id="git-">Git (临时)</h2>
+<p><a href="https://github.com/FrancesShih/workspace">https://github.com/FrancesShih/workspace</a></p>
+<h2 id="-">页面规范</h2>
+<blockquote>
+<p>页面目录：template</p>
+<p>参考页面: product.ejs</p>
+<p>页面命名规则：product 前缀，可用下划线连接（不可用中划线）或 全部小写</p>
+</blockquote>
+<h2 id="-">样式规范</h2>
+<blockquote>
+<p>通用引入产品样式： <code>&lt;!--resstyle[/assets/style/ext/product.scss]--&gt;</code></p>
+<p>布局：</p>
+</blockquote>
+<p>  两栏，左侧通用固定，&lt;%include inc/pro-col-l.ejs %&gt;</p>
+<p>  右侧内容可变，整体框架样式通用不建议调整，可针对不同产品加样式微调</p>
+<h2 id="-">图片存放</h2>
+<blockquote>
+<p>目录： assets/img/static/product/</p>
+<p>命名规则： 暂无，不重名即可</p>
+<p>图片尺寸：</p>
+</blockquote>
+<p>  参考页面 - <a href="http://182.92.111.197:3000/template/product.html">http://182.92.111.197:3000/template/product.html</a></p>
+<h2 id="-">脚本 &amp; 通用组件</h2>
+<blockquote>
+<p>定位锚点</p>
+</blockquote>
+<p>  页面下方引入： <script type="text/javascript" data-main="/assets/script/product/conf" src="/assets/script/lib/require.js"></script></p>
+<p>  在产品页 /assets/script/product/conf 引入的init js中自动做tab &amp; title 索引对应，不需修改</p>
+<link type="text/css" rel="stylesheet" href="/css/github-markdown.css"/><link type="text/css" rel="stylesheet" href="/css/hljs-github.min.css"/><link type="text/css" rel="stylesheet" href="/css/pilcrow.css"/>

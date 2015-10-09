@@ -10,4 +10,6 @@ exefile('sh ' + __dirname + '/updateserver.sh', function (err, stdout, stderr) {
     } else {
         console.log(err);
     }
+    process.exit(1);
 });
+

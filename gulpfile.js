@@ -46,6 +46,8 @@ gulp.task('autoupdate', function () {
             throw err;
             console.log('更新失败');
         } else {
+            console.log('更新成功');
+            console.log('更新服务器server文件中, 请等待...');
             var autoupdate  = require('./frame/updateserver.js');
         }
     });

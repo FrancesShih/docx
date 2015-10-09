@@ -45,8 +45,4 @@ mac下：GithubDesktop
 
 Windows下需要使用命令cnpm来安装。
 
-
-
-
-
-
+> ...

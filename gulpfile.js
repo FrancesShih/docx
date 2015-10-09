@@ -8,12 +8,13 @@ var md = require('gulp-markdown');
 var layout = require('gulp-layout');
 var connect = require('gulp-connect');
 var git = require('gulp-git');
-
+var addstyle = require('./frame/engine/widget.js');
 
 gulp.task('build', function () {
     gulp.src('./docs/content/**/*.md')
            .pipe(fm())
            .pipe(md())
+           .pipe(addstyle())
            .pipe(gulp.dest('./web/content/'));
 
     gulp.src('./docs/content/**/*.*')

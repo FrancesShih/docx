@@ -29,7 +29,7 @@ gulp.task('frame', function () {
 });
 
 gulp.task('watchfile', function () {
-    gulp.watch(['docs/**/*.*'], 'rebuild');
+    gulp.watch(['docs/**/*.*'], ['rebuild']);
 });
 
 gulp.task('server', function () {

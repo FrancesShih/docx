@@ -1,12 +1,12 @@
-#iconfont图库
+# iconfont图库
 
 @huanglijiao create
 
 @2015-9-29
 
-###使用阿里巴巴的矢量图标库  
+### 使用阿里巴巴的矢量图标库  
 
-###详细介绍如下：
+### 详细介绍如下：
 
 * 1 [矢量图上传](http://www.iconfont.cn/)
 
@@ -16,7 +16,7 @@
 
 * 4 [图标应用教程](http://www.iconfont.cn/help/iconuse.html)
 
-###注意事项：
+### 注意事项：
 
 > 图片上传，需要微博的账户和密码，使用的是金山云的新浪微博帐号。
 

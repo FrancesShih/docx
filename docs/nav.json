@@ -19,6 +19,9 @@
     }, {
         "text": "产品展示规范",
         "id": "content/standard/product"
+    }, {
+        "text": "Yaf手册&说明",
+        "id": "content/standard/yaf"
     }]
 },{
     "text": "组件 & 工具",

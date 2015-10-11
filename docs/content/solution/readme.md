@@ -33,7 +33,7 @@
 
 		在这里包含页面底部的模板
 
-		&lt;%include inc/foot.ejs%&gt;
+		<%include inc/foot.ejs%>
 
 	&lt;/div&gt;
 

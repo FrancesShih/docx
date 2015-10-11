@@ -15,10 +15,10 @@ gulp.task('build', function () {
            .pipe(fm())
            .pipe(md())
            .pipe(addstyle())
-           .pipe(gulp.dest('./web/content/'));
+           .pipe(gulp.dest('web/content/'));
 
     gulp.src('./docs/content/**/*.*')
-        .pipe(gulp.dest('./web/content/'));
+        .pipe(gulp.dest('web/content/'));
 });
 
 gulp.task('frame', function () {
@@ -29,7 +29,7 @@ gulp.task('frame', function () {
 });
 
 gulp.task('watchfile', function () {
-    gulp.watch(['docs/**/*.*'], 'rebuild');
+    gulp.watch(['./docs/**/*.*'], ['build', 'frame']);
 });
 
 gulp.task('server', function () {
@@ -53,5 +53,5 @@ gulp.task('autoupdate', function () {
     });
 });
 
-gulp.task('default', ['build', 'frame', 'server', 'autoupdate']);
+gulp.task('default', ['build', 'frame', 'server', 'autoupdate', 'watchfile']);
 gulp.task('rebuild', ['build', 'frame']);

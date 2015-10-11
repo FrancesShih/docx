@@ -1,4 +1,4 @@
-#解决方案开发规范
+# 解决方案开发规范
 
 @huanglijiao create
 
@@ -16,7 +16,7 @@
 
 		在这里包含页面头部的模板
 
-	    &lt;%include inc/head.ejs%&gt;
+	    <%include inc/head.ejs%>
 
 	&lt;/div&gt; 
 
@@ -24,7 +24,8 @@
 
 		在这里包含解决方案页面的内容主题
 
-		页面内容需要用&lt;div class="wrap"&gt;&lt;/div&gt;包裹一层，将内容宽度固定1000px，且居中。
+		页面内容需要用
+		<div class="wrap"></div>包裹一层，将内容宽度固定1000px，且居中。
 
 	&lt;/div&gt;
 
@@ -32,7 +33,7 @@
 
 		在这里包含页面底部的模板
 
-		&lt;%include inc/foot.ejs%&gt;
+		<%include inc/foot.ejs%>
 
 	&lt;/div&gt;
 

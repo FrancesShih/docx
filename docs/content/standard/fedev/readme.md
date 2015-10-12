@@ -19,9 +19,11 @@ vim nav.json 添加文件夹 & readme.md
 git commit 之前。。。需要你手动执行下sh build.sh (容我后续优化。。。。表吐槽。。。。)
 
 
-> WebSite：官网 "买不起私有。。。记得这都是开放的。。。密码神马的不要写。。。还有一些功能我后续优化。。。"
+> WebSite：官网 "公司内部git"
 
-地址：https://github.com/FrancesShih/workspace.git
+<span style="text-decoration:line-through">地址：https://github.com/FrancesShih/workspace.git</span>
+
+http://git.op.ksyun.com/shiyongxin/ksc-website
 
 目录说明：
 

@@ -29,14 +29,17 @@
     "children": [{
         "text": "翻墙工具",
         "id": "content/tools/overwall"
-     }]
+    }]
 },{
     "text": "服务 & 平台",
     "id": "content/plat",
     "children": [{
         "text": "iconfont",
         "id": "content/plat/overwall"
-     }]
+    },{
+        "text": "iconfont",
+        "id": "content/plat/miniimage"
+    }]
 },{
     "text": "技储 & 调研",
     "id": "content/research"

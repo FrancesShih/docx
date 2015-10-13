@@ -22,7 +22,7 @@
 
 登录的邮箱：ksc_website@kingsoft.com
 
-密码：Ksyun1012
+密码：*******
 
 微博认证用的手机号是永欣的
 

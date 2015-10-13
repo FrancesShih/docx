@@ -6,9 +6,11 @@
 
 参考 新人指导 搭建环境
 
-## Git (临时)
+## Git （内部）
 
-https://github.com/FrancesShih/workspace
+<span style="text-decoration: line-through">https://github.com/FrancesShih/workspace</span>
+
+http://git.op.ksyun.com/shiyongxin/ksc-website
 
 ## 页面规范
 
@@ -32,11 +34,13 @@ https://github.com/FrancesShih/workspace
 
 > 目录： assets/img/static/product/
 
-> 命名规则： 暂无，不重名即可
+> 命名规则： pro_des|fn_产品名_编号.png
 
 > 图片尺寸：
 
   参考页面 - http://182.92.111.197:3000/template/product.html
+  
+  图片保存时，请优化。参见：[图片压缩和png格式图片浏览器的交错式渲染](/#content/plat/miniimage/)
 
 ## 脚本 & 通用组件
 

@@ -34,7 +34,7 @@ http://git.op.ksyun.com/shiyongxin/ksc-website
 
 > 目录： assets/img/static/product/
 
-> 命名规则： pro_des|fn_产品名_编号.png
+> 命名规则： pro\_des|fn\_产品名\_编号.png
 
 > 图片尺寸：
 

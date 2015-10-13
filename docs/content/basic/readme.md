@@ -45,5 +45,9 @@ mac下：GithubDesktop
 
 中文官网：http://www.gulpjs.com.cn/
 
-Windows下需要使用命令cnpm来安装。
+Windows下需要使用命令cnpm来安装, 参考如下文章：
+
+http://www.dtao.org/archives/18#lesson4
+
+
 

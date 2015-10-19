@@ -25,6 +25,8 @@ auto_prepend_file= D:/workspacenew/ksc-website/data/view.php
 
 > 4 更新package.json后，执行npm intall 安装php的相关插件。
 
+> 5 完成上述配置，执行命令gulp start:php,使用8889端口号访问，可查看是否成功。
+
 
 
 

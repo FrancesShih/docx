@@ -39,11 +39,11 @@
     }, {
         "text": "图片压缩 & png格式图片浏览器的交错式渲染",
         "id": "content/plat/miniimage"
+    },{
+        "text": "Windows下php环境搭建",
+        "id": "content/plat/php"
     }]
 },{
     "text": "技储 & 调研",
     "id": "content/research"
-},{
-    "text": "Windows下php环境搭建",
-    "id": "content/php"
 }]
